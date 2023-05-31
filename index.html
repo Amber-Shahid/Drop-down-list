@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      nav{
+        height: 60px;
+        background-color:purple;
+      } 
+      nav ul{
+        list-style: none;
+        margin: 0%;
+        padding: 0px;
+        font-size: 23px;
+      }
+      nav ul li{
+        padding-left: 20px;
+        float: left;
+      }
+      nav ul li a{
+        text-decoration: none;
+        text-align: center;
+        color: white;
+      }
+    
+      nav ul a:hover{
+        visibility: visible;
+        background-color:darkorchid;
+      }
+       nav ul li:hover>ul{
+        visibility: visible;}
+      nav ul ul{
+       position: absolute;
+       visibility: hidden;
+       background-color:purple;
+      }
+      nav ul ul ul{
+        margin-left: 60px;
+      }
+      nav ul ul li{
+        float: none;
+      }
+    </style>
+</head>
+<body>
+      <nav>
+        <ul>
+          <li><a href="#">SHOP</a>
+            <ul>
+              <li><a href="#">ELECTRONIC</a></li>
+              <li><a href="#">FASHION</a>
+              <ul>
+                <li><a href="#">MEN</a></li>
+                <li><a href="#">WOMEN</a>
+                    <ul class="one">
+                        <li><a href="#">SHOES</a></li>
+                        <li><a href="#">ACCESSORIES</a>
+                            <ul class="two">
+                                <li><a href="#">JEWELLARY</a></li>
+                                <li><a href="#">WATCHES</a></LI>
+                                <li><a href="#">SUNGLASSES</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            </li>
+            <li><a href="#">FURNITURE</a></li>
+            <li><a href="#">MAKEUP</a></li>
+        </ul>
+          </li>
+          <li><a href="#">COMPUTING</a></li>
+          <li><a href="#">COMPUTING</a></li>
+          <li><a href="#">BEAUTY & PERFUMES</a></li>
+          <li><a href="#">TABLETS & ACCESSORIES</a></li>
+          <li><a href="#">SPORTS & FITNESS</a></li>
+        </ul>
+      </nav>
+    </header>
+</body>
+</html>
